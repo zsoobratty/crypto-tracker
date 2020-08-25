@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import coinGecko from '../apis/coinGecko'
 import { useContext } from 'react'
 import { WatchListContext } from '../context/watchListContext'
+import Coin from './Coin'
 
 const CoinList = () => {
 
